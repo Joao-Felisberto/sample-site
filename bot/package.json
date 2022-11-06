@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "discord": "^0.8.2",
-    "zombie": "^6.1.4"
-  }
-}
