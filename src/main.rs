@@ -24,5 +24,5 @@ fn owl(cookies: Cookies) -> String {
 }
 
 fn main() {
-    rocket::ignite().mount("/", routes![index]).launch();
+    rocket::ignite().mount("/", routes![index, owl]).launch();
 }
